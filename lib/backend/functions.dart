@@ -12,4 +12,5 @@ Future<List> fetchApi() async {
   Map result = jsonDecode(response.body);
   print('News fetched');
   return (result['articles']);
+  // efef
 }
